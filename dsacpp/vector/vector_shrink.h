@@ -2,7 +2,7 @@
 
 //装填因子过小时压缩向量所占空间
 template <typename T>
-void Vector::shrink() {
+void Vector<T>::shrink() {
   if (_capacity < DEFAULT_CAPACITY << 1) {
     return;
   }

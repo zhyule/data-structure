@@ -147,6 +147,9 @@
     <ClInclude Include="vector_assignment.h" />
     <ClInclude Include="vector_bracket.h" />
     <ClInclude Include="vector_constructor_by_copying.h" />
+    <ClInclude Include="Vector_deduplicate.h" />
+    <ClInclude Include="vector_deduplicate_1.h" />
+    <ClInclude Include="vector_deduplicate_wrong_1.h" />
     <ClInclude Include="vector_expand.h" />
     <ClInclude Include="Vector_find.h" />
     <ClInclude Include="vector_implementation.h" />

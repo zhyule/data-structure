@@ -28,7 +28,7 @@
 #include "vector_remove.h"
 #include "vector_removeInterval.h"
 #include "vector_shrink.h"
-////#include "Vector_search_fibonaccian_A.h" //实用版（但返回值有待与接口统一）
+//#include "Vector_search_fibonaccian_A.h" //实用版（但返回值有待与接口统一）
 //#include "Vector_search_fibonaccian_B.h"  //华丽版
 #include "Vector_sort.h"
 #include "Vector_traverse.h"
@@ -46,7 +46,7 @@
 //#include "vector_heapSort.h"
 //#include "vector_partition_LGU.h"
 ////#include "vector_quickSort_recursive.h"
-//#include "Vector_deduplicate.h"
-//#include "Vector_uniquify.h"  //或者Vector_uniquify_slow.h
+#include "Vector_deduplicate.h"
+#include "Vector_uniquify.h"  //或者Vector_uniquify_slow.h
 //#include "vector_quickSort_iterative.h"
 //#include "vector_shellSort.h"

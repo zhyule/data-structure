@@ -71,5 +71,14 @@
     <ClInclude Include="Vector_unsort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Vector_deduplicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate_wrong_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

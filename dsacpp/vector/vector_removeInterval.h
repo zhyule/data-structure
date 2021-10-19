@@ -10,6 +10,6 @@ int Vector<T>::remove(Rank lo, Rank hi) {
     _elem[lo++] = _elem[hi++];
   }
   _size = lo;      //更新规模
-  //shrink();        //必要时缩容
+  shrink();        //必要时缩容
   return hi - lo;  //返回被删除的元素的数目
 }

@@ -168,13 +168,19 @@ int main() {
   printInfo(message, a);
   //插入
   a.insert(2, 12);
+  a.insert(0, 12);
+  a.insert(0, 7);
   message = "插入";
   printInfo(message, a);
-  //移除
-  a.remove(1, 3);
-  message = "移除";
+  //去重
+  a.deduplicate();
+  message = "去重";
   printInfo(message, a);
-  std::cout << a.size() << "\n" << std::endl;
+  ////移除
+  //a.remove(1, 3);
+  //message = "移除";
+  //printInfo(message, a);
+  //std::cout << a.size() << "\n" << std::endl;
 
   std::cout << "Hello World!\n" << std::endl;
 }
