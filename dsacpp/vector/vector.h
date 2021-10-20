@@ -21,7 +21,7 @@ class Vector {
   void expand();                                //空间不足扩容
   void shrink();                                //装填因子过小压缩
   // bool bubble(Rank lo, Rank hi);                //扫描交换
-  // void bubbleSort(Rank lo, Rank hi);            //起泡排序
+   void bubbleSort(Rank lo, Rank hi);            //起泡排序
  public:
   //构造函数
   Vector(int s, T v = 0, int c = DEFAULT_CAPACITY) {

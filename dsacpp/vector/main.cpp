@@ -172,10 +172,14 @@ int main() {
   a.insert(0, 7);
   message = "插入";
   printInfo(message, a);
-  //去重
-  a.deduplicate();
-  message = "去重";
+  //排序
+  a.sort(0, a.size());
+  message = "排序";
   printInfo(message, a);
+  ////去重
+  //a.deduplicate();
+  //message = "去重";
+  //printInfo(message, a);
   ////移除
   //a.remove(1, 3);
   //message = "移除";

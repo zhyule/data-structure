@@ -148,6 +148,8 @@
     <ClInclude Include="vector.h" />
     <ClInclude Include="vector_assignment.h" />
     <ClInclude Include="vector_bracket.h" />
+    <ClInclude Include="vector_bubbleSort_A.h" />
+    <ClInclude Include="vector_bubbleSort_B.h" />
     <ClInclude Include="vector_bubbleSort_C.h" />
     <ClInclude Include="vector_constructor_by_copying.h" />
     <ClInclude Include="Vector_deduplicate.h" />

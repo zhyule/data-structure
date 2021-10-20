@@ -98,5 +98,11 @@
     <ClInclude Include="vector_bubbleSort_C.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="vector_bubbleSort_A.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubbleSort_B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
