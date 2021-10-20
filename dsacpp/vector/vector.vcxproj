@@ -89,6 +89,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,9 +144,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\fibonacci\Fib.h" />
     <ClInclude Include="vector.h" />
     <ClInclude Include="vector_assignment.h" />
     <ClInclude Include="vector_bracket.h" />
+    <ClInclude Include="vector_bubbleSort_C.h" />
     <ClInclude Include="vector_constructor_by_copying.h" />
     <ClInclude Include="Vector_deduplicate.h" />
     <ClInclude Include="vector_deduplicate_1.h" />
@@ -158,10 +161,14 @@
     <ClInclude Include="vector_removeInterval.h" />
     <ClInclude Include="Vector_search.h" />
     <ClInclude Include="Vector_search_binary_A.h" />
+    <ClInclude Include="Vector_search_binary_B.h" />
     <ClInclude Include="Vector_search_binary_C.h" />
+    <ClInclude Include="Vector_search_fibonaccian_A.h" />
+    <ClInclude Include="Vector_search_fibonaccian_B.h" />
     <ClInclude Include="vector_shrink.h" />
     <ClInclude Include="Vector_sort.h" />
     <ClInclude Include="Vector_traverse.h" />
+    <ClInclude Include="Vector_uniquify.h" />
     <ClInclude Include="Vector_unsort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

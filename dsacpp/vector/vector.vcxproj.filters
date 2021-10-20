@@ -80,5 +80,23 @@
     <ClInclude Include="vector_deduplicate_wrong_1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Vector_uniquify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search_fibonaccian_A.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search_binary_B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_search_fibonaccian_B.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fibonacci\Fib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubbleSort_C.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
