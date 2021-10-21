@@ -38,7 +38,7 @@
 #include "vector_bubbleSort_C.h"
 //#include "vector_merge.h"
 //#include "vector_mergeSort.h"
-//#include "vector_selectionSort.h"
+#include "vector_selectionSort.h"
 ////#include "vector_partition_LUG.h"
 ////#include "vector_partition_LUG1.h"
 ////#include "vector_partition_DUP.h"
