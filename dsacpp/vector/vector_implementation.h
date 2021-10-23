@@ -49,4 +49,4 @@
 #include "Vector_deduplicate.h"
 #include "Vector_uniquify.h"  //ªÚ’ﬂVector_uniquify_slow.h
 //#include "vector_quickSort_iterative.h"
-//#include "vector_shellSort.h"
+#include "vector_shellSort.h"

@@ -26,6 +26,7 @@ class Vector {
   void selectionSort(Rank lo, Rank hi);   //选择排序算法
   void merge(Rank lo, Rank mi, Rank hi);  //归并算法
   void mergeSort(Rank lo, Rank hi);       //归并排序算法
+  void shellSort(Rank lo, Rank hi);       //希尔排序算法
  public:
   //构造函数
   Vector(int s, T v = 0, int c = DEFAULT_CAPACITY) {
